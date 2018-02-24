@@ -1,0 +1,4 @@
+{:require  [workframe.bakery.core]
+ :init-fns [workframe.bakery.core/main]
+ :boot-reload {:on-jsload workframe.bakery.core/main}
+ :compiler-options {}}
